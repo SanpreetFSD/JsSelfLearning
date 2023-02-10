@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Each Loop</title>
+</head>
+<body>
+    <script>
+        var cars = ["Car1", "Car2", "Car3", "Car4", "Car5", "Car6"];
+        cars.forEach(car);
+
+        function car(item, index, array){
+            // document.write(index+ " => " +item+ "<br/>");
+            array [index] = item+" Exclusive";
+        }
+
+        cars.forEach(after);
+
+        function after(item, index){
+            document.write(index+ " => " +item+ "<br/>");
+            
+        }
+
+
+
+    </script>
+</body>
+</html>
