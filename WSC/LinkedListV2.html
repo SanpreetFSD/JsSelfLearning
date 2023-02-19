@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedList JS V2</title>
+</head>
+<body>
+    <script>
+        class LinketList{
+            constructor(data){
+                this.head={
+                    value: data,
+                    next: null
+                }
+                this.tail= this.head
+                this.length = 1; // just to check the length of the linkedlist
+                
+            }
+        }
+
+        const myList = new LinketList(10)
+        console.log(myList)
+    </script>
+</body>
+</html>
